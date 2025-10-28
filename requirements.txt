@@ -1,16 +1,47 @@
-# Core libraries
-numpy
-pandas
-scikit-learn
+# Core Data Handling
+pandas>=2.0.0
+numpy>=1.24.0
 
-# Visualization
-matplotlib
-seaborn
+# Data Visualization
+matplotlib>=3.8.0
+seaborn>=0.13.0
+plotly>=5.15.0
 
-# MLOps and experiment tracking
-mlflow
-dvc
+# Machine Learning Models
+scikit-learn>=1.5.0
+xgboost>=2.0.0
+lightgbm>=4.3.0
+catboost>=1.2.5
 
-# Deep learning (optional)
-tensorflow
-torch
+# Time Series Forecasting
+statsmodels>=0.14.0
+prophet>=1.1.5
+
+# Deep Learning (LSTM / Transformer)
+tensorflow>=2.17.0
+keras>=3.3.3
+torch>=2.3.0
+pytorch-lightning>=2.3.0
+
+# Hyperparameter Optimization (optional for tuning)
+keras-tuner>=1.4.7
+optuna>=3.5.0
+
+# Data Preprocessing & Utilities
+scipy>=1.12.0
+category-encoders>=2.6.3
+imblearn>=0.12.0
+tqdm>=4.66.0
+
+# Deployment & Dashboard (optional)
+streamlit>=1.38.0
+flask>=3.0.3
+dash>=2.17.1
+
+# Model Saving & Serialization
+joblib>=1.4.2
+pickle5>=0.0.12
+
+# Notebook / Experimentation
+jupyterlab>=4.2.0
+notebook>=7.2.0
